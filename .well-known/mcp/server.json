@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.familiartarot/tarot",
+  "title": "Familiar Tarot",
+  "description": "Free tarot for Claude & your AI — many decks, real card art, a true shuffle, drawn & discussed.",
+  "version": "1.0.2",
+  "websiteUrl": "https://familiartarot.com",
+  "icons": [
+    { "src": "https://mcp.familiartarot.com/logo.png", "mimeType": "image/png", "sizes": ["256x256"], "theme": "light" },
+    { "src": "https://mcp.familiartarot.com/logo-dark.png", "mimeType": "image/png", "sizes": ["256x256"], "theme": "dark" },
+    { "src": "https://familiartarot.com/logo.svg", "mimeType": "image/svg+xml" }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.familiartarot.com/mcp" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "familiar-tarot-mcp",
+  "version": "1.0.2",
+  "description": "Free tarot for Claude & your AI — a hosted tarot MCP server (connect at https://mcp.familiartarot.com/mcp). Real shuffle, real card art, multiple decks; reflection, not fortune-telling.",
+  "homepage": "https://familiartarot.com",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tarot",
+    "tarot-reading",
+    "claude",
+    "ai",
+    "oracle",
+    "divination"
+  ],
+  "author": "Familiar Tarot (https://familiartarot.com)",
+  "mcp": {
+    "type": "streamable-http",
+    "url": "https://mcp.familiartarot.com/mcp"
+  }
+}
