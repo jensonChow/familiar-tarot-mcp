@@ -7,12 +7,17 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
+    "mcp-server",
     "tarot",
+    "tarot-mcp",
+    "tarot-mcp-server",
     "tarot-reading",
     "claude",
+    "claude-desktop",
+    "claude-tarot",
+    "chatgpt",
     "ai",
-    "oracle",
-    "divination"
+    "oracle"
   ],
   "author": "Familiar Tarot (https://familiartarot.com)",
   "mcp": {
