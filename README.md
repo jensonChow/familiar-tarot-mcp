@@ -51,8 +51,8 @@ https://mcp.familiartarot.com/mcp
 No account or API key is required. Pick the path your client supports:
 
 ### Clients that add a remote MCP server by URL
-**Claude** (claude.ai / Claude Desktop → Settings → Connectors → Add custom
-connector), **ChatGPT** (developer mode → connectors), **Le Chat**, and
+**Claude** (claude.ai / Claude Desktop → Customize → Connectors → Add → Add
+custom connector), **ChatGPT** (developer mode → connectors), **Le Chat**, and
 **Perplexity** — paste the URL above. Step-by-step, per client:
 https://familiartarot.com/connect
 
@@ -69,6 +69,27 @@ Bridge the hosted server with [`mcp-remote`](https://www.npmjs.com/package/mcp-r
   }
 }
 ```
+
+## Claude skill and Claude Code plugin
+
+The connector gives Claude the deck. The **`familiar-tarot` skill** in
+[`skills/familiar-tarot/SKILL.md`](skills/familiar-tarot/SKILL.md) gives it a method:
+check that the deck is connected, never invent a card, pick the right draw for the
+request (including spreads the deck doesn't name, like a full moon spread), name the
+cards before reading them, and close with one question.
+
+**Claude Code** — this repository is a plugin marketplace. Install the skill and the
+hosted MCP server together:
+
+```
+/plugin marketplace add jensonChow/familiar-tarot-mcp
+/plugin install familiar-tarot@familiar-tarot
+```
+
+**claude.ai** — add the connector (above), turn on code execution in Settings →
+Capabilities, then upload the skill zip in Customize → Skills:
+https://familiartarot.com/skills/familiar-tarot.zip · guide:
+https://familiartarot.com/claude-tarot-skill
 
 ## Example
 
@@ -99,6 +120,7 @@ official MCP registry / connector directories (Glama, PulseMCP, LobeHub).
 - Home — https://familiartarot.com
 - What is a tarot MCP — https://familiartarot.com/tarot-mcp
 - Reading tarot with Claude — https://familiartarot.com/claude-tarot-reading
+- Claude tarot skill — https://familiartarot.com/claude-tarot-skill
 - Cards & meanings — https://familiartarot.com/cards
 - Spreads — https://familiartarot.com/spreads
 - Support — support@familiartarot.com

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "familiar-tarot": {
+      "type": "http",
+      "url": "https://mcp.familiartarot.com/mcp"
+    }
+  }
+}

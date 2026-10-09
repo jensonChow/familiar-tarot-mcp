@@ -1,0 +1,12 @@
+{
+  "name": "familiar-tarot",
+  "description": "Familiar Tarot for Claude Code: a real shuffled tarot deck and a skill that reads from it.",
+  "owner": { "name": "Familiar Tarot", "url": "https://familiartarot.com" },
+  "plugins": [
+    {
+      "name": "familiar-tarot",
+      "source": "./",
+      "description": "Tarot readings from a real shuffled deck: the hosted Familiar Tarot MCP server plus a skill that never invents cards."
+    }
+  ]
+}
