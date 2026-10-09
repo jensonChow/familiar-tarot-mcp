@@ -125,6 +125,12 @@ official MCP registry / connector directories (Glama, PulseMCP, LobeHub).
 - Spreads — https://familiartarot.com/spreads
 - Support — support@familiartarot.com
 
+## License
+
+The files in this repository (the skill, the plugin manifests and this README) are
+MIT-licensed; see [LICENSE](LICENSE). The hosted server, the card art and the
+familiartarot.com site are not part of this repository.
+
 ---
 
 Familiar is a reflective tarot practice for AI assistants. It does not predict the

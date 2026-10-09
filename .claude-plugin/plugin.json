@@ -2,8 +2,18 @@
   "name": "familiar-tarot",
   "version": "1.0.0",
   "description": "Tarot readings from a real shuffled deck: the Familiar Tarot MCP server plus a skill that draws through it and never invents cards.",
-  "author": { "name": "Familiar Tarot", "url": "https://familiartarot.com" },
+  "author": {
+    "name": "Familiar Tarot",
+    "url": "https://familiartarot.com"
+  },
   "homepage": "https://familiartarot.com/claude-tarot-skill",
   "repository": "https://github.com/jensonChow/familiar-tarot-mcp",
-  "keywords": ["tarot", "tarot-reading", "skill", "mcp", "reflection"]
+  "keywords": [
+    "tarot",
+    "tarot-reading",
+    "skill",
+    "mcp",
+    "reflection"
+  ],
+  "license": "MIT"
 }
